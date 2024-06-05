@@ -1,0 +1,8 @@
+# run: flutter pub run flutter_native_splash:create --flavor staging --path=staging-splash.yaml
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: "assets/images/splash-staging.png"
+  android_12:
+    image: "assets/images/splash-staging.png"
+  ios: true

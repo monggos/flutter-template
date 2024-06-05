@@ -1,0 +1,13 @@
+# run: flutter pub run flutter_launcher_icons:main -f staging-icons.yaml
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  image_path: "assets/images/icon-staging.png"
+  adaptive_icon_background: "#262626"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  ios: true
+  web:
+    generate: false
+  windows:
+    generate: false

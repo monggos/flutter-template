@@ -1,0 +1,8 @@
+# run: flutter pub run flutter_native_splash:create --flavor prod --path=prod-splash.yaml
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: "assets/images/splash.png"
+  android_12:
+    image: "assets/images/splash.png"
+  ios: true

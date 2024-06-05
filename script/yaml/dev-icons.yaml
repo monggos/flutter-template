@@ -1,0 +1,13 @@
+# run: flutter pub run flutter_launcher_icons:main -f dev-icons.yaml
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  image_path: "assets/images/logo-dev.png"
+  adaptive_icon_background: "#FFFFFF"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+  ios: true
+  web:
+    generate: false
+  windows:
+    generate: false
